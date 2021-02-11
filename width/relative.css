@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: hsl(100, 70%, 50%);
+}
+header {
+	overflow: auto;
+	height: 8vh;
+}
+h1 {
+	margin: 0;
+}
+main {
+	background-color: hsl(0, 70%, 10%);
+	height: 60vh;
+	width: calc(100vw - 400px);
+}
+section {
+	font-size: 1.4em;
+	height: 12vh;
+	padding: 2vh;
+	box-sizing: border-box;
+	margin: 0 auto 3vh auto;
+	background-color: hsl(200, 70%, 50%);
+}
+
+.static {
+	width: 600px;
+}
+.relative {
+	width: 75%;
+}
+.max {
+	max-width: 600px;
+}
+
+
+@media (min-width: 1200px) {
+	main {
+		width: 800px;
+	}
+}
