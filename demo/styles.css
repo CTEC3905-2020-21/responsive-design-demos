@@ -36,7 +36,7 @@ body {
 	transform: translateY(-0.5em) rotate(-45deg);
 }
 #menuToggler.open div:nth-child(2) {
-	transform: translate(5em);
+	opacity: 0;
 }
 
 header, main, section, article {
